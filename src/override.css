@@ -1,0 +1,23 @@
+.ant-steps-item-finish .ant-steps-item-icon {
+  background-color: rgba(30, 33, 40, 1);
+  color: rgba(244, 174, 43, 1);
+}
+.ant-steps-item-wait .ant-steps-item-icon {
+  background-color: rgb(30, 33, 40);
+  border-color: rgba(244, 174, 43, 0.5);
+}
+.ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+  color: rgba(244, 174, 43, 0.5);
+}
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: rgba(244, 174, 43, 0.85);
+}
+.ant-carousel .slick-dots li.slick-active button {
+  background-color: rgba(244, 174, 43, 0.85);
+}
+.ant-carousel .slick-dots li button {
+  background-color: rgba(244, 174, 43, 0.5);
+}
