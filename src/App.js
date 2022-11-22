@@ -26,7 +26,7 @@ const Screen = ({
     <Layout>
       <Sider
         className='section'
-        breakpoint={'md'}
+        breakpoint={'lg'}
         collapsedWidth={'0'}
         onCollapse={collapsed => {
           hideElement(collapsed ? { display: 'none' } : {});
@@ -40,7 +40,7 @@ const Screen = ({
       <Content className='section center'>{children}</Content>
       <Sider
         className='section'
-        breakpoint={'md'}
+        breakpoint={'lg'}
         collapsedWidth={'0'}
         onCollapse={collapsed => {
           hideElement(collapsed ? { display: 'none' } : {});

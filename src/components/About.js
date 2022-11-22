@@ -1,6 +1,7 @@
 import { Layout, Typography } from 'antd';
 
 import React from 'react';
+
 const { Title } = Typography;
 const { Content } = Layout;
 const Anchor = ({ href, name }) => {
@@ -18,14 +19,14 @@ const Anchor = ({ href, name }) => {
 const About = () => {
   return (
     <Content>
-      <Title level={4} style={{ width: '50vw', margin: 2 }}>
+      <Title level={4} className={'about'} style={{ margin: 2 }}>
         Hello,
       </Title>
-      <Title level={1} style={{ width: '50vw', marginTop: 12 }}>
+      <Title level={1} className={'about'} style={{ marginTop: 12 }}>
         I'm{' '}
-        <Anchor href='https://twitter.com/PraneethGunas' name={'Praneeeth'} />.
+        <Anchor href='https://twitter.com/PraneethGunas' name={'Praneeth'} />.
       </Title>
-      <Title level={4} style={{ width: '50vw', margin: 2 }}>
+      <Title level={4} className={'about'} style={{ margin: 2 }}>
         I am a React Native developer at{' '}
         <Anchor href='https://hexawallet.io/' name={'Hexa'} />, building a
         self-custody Bitcoin Wallet -{' '}

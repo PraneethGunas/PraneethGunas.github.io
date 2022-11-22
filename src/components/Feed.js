@@ -4,7 +4,7 @@ const { Step } = Steps;
 
 const Feed = () => {
   return (
-    <Steps current={4} direction={'vertical'} style={{ width: '50vw' }}>
+    <Steps current={4} direction={'vertical'} className={'about'}>
       <Step
         onStepClick={() => {
           window.open(
